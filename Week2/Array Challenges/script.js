@@ -1,7 +1,7 @@
 /*2. Arrays!
 Consider the following array:*/
 
-let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
+let favoriteAnimals = ["blowfish", "capricorn", "giraffe", "dolphin"];
 favoriteAnimals.push("turtle");//2.1 Add a statement that adds Mauro's favorite animal 'turtle' to the existing array.
 console.log(favoriteAnimals);//2.2 Log your new array!
 favoriteAnimals.splice(1, 0, "meerkat")//2.3 Now add Jim's favorite animal to the array, it's 'meerkat', but make sure it will be placed after 'blowfish' and before 'capricorn'.
